@@ -84,4 +84,4 @@ keymap.set('n', '|', ':Neotree toggle show buffers right<CR>')
 --
 -- COLORS
 -- vim.cmd('colorscheme citylights')
-vim.cmd('colorscheme transparent')
+-- vim.cmd('colorscheme transparent')

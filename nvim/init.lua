@@ -102,13 +102,13 @@ require('lazy').setup({
 
   { -- Theme inspired by Atom
     --'navarasu/onedark.nvim',
-    -- 'folke/tokyonight.nvim',
-    'loctvl842/monokai-pro.nvim',
+    'folke/tokyonight.nvim',
+    -- 'loctvl842/monokai-pro.nvim',
     priority = 1000,
     config = function()
       -- vim.cmd.colorscheme 'onedark'
-      -- vim.cmd.colorscheme 'tokyonight'
-      vim.cmd.colorscheme 'monokai-pro'
+      vim.cmd.colorscheme 'tokyonight-storm'
+      -- vim.cmd.colorscheme 'monokai-pro'
     end,
   },
 
@@ -119,8 +119,8 @@ require('lazy').setup({
       options = {
         icons_enabled = true,
         -- theme = 'onedark',
-        -- theme = 'tokyonight',
-        theme = 'monokai-pro',
+        theme = 'tokyonight-storm',
+        -- theme = 'monokai-pro',
         component_separators = { left = '', right = ''},
         section_separators = { left = '', right = ''},
         -- component_separators = '|',
