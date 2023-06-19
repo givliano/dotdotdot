@@ -99,6 +99,10 @@ keymap.set('n', '\\', ':Neotree toggle<CR>')
 keymap.set('n', '|', ':Neotree toggle show buffers right<CR>')
 -- keymap.set('n', '<leader>s', ':Neotree float git_status<CR>')
 --
+-- Map buffer switch to Tab and Shift + Tab
+keymap.set('n', '<Tab>', ':bn!<CR>')
+keymap.set('n', '<S-Tab>', ':bp!<CR>')
+--
 -- COLORS
 -- vim.cmd('colorscheme citylights')
--- vim.cmd('colorscheme transparent')
+vim.cmd('colorscheme transparent')
