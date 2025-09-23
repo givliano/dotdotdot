@@ -86,7 +86,8 @@ ZSH_THEME="powerlevel10k/powerlevel10k"
 # Custom plugins may be added to $ZSH_CUSTOM/plugins/
 # Example format: plugins=(rails git textmate ruby lighthouse)
 # Add wisely, as too many plugins slow down shell startup.
-plugins=(git zsh-syntax-highlighting zsh-autosuggestions zsh-autocomplete autoupdate)
+# plugins=(git zsh-syntax-highlighting zsh-autosuggestions zsh-autocomplete autoupdate)
+plugins=(git zsh-syntax-highlighting zsh-autosuggestions autoupdate)
 
 source $ZSH/oh-my-zsh.sh
 
@@ -119,6 +120,7 @@ alias tmac="tmux new-session -A -s"
 alias nnv='nvim $(fzf -m --preview="bat --color=always {}")'
 alias lg="log --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset' --abbrev-commit"
 alias can="commit --amend --no-edit"
+alias gs="git status"
 
 # To customize prompt, run `p10k configure` or edit ~/.p10k.zsh.
 [[ ! -f ~/.p10k.zsh ]] || source ~/.p10k.zsh
