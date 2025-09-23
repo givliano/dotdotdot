@@ -1,6 +1,3 @@
-import = [
-  "~/Developer/tokyonight.nvim/extras/alacritty/tokyonight_night.toml"
-]
 [env]
   term = "xterm-256color"
 
@@ -26,3 +23,8 @@ import = [
 [font.normal]
   family = "SFMono Nerd Font"
   style = "Regular"
+
+[general]
+import = [
+  "~/Developer/tokyonight.nvim/extras/alacritty/tokyonight_night.toml"
+]
